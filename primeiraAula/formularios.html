@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulários</title>
+</head>
+<body>
+    <a href="index.html">Home</a>
+    |
+    <a href="links.html">Links</a>
+    <h2>Formulários</h2>
+    <p>São usados para autenticação de usuário, cadastro em geral e como forma de enviar contatos, para isso usamos a tag "form", "input" para receber os dados digitados pelo usuário, e um "button" para poder enviar o que foi digitado. O type varia conforme o tipo de dados que será inserido ou ação que será efetuada, ex type="submit" envia os dados para onde foi programado.</p>
+    
+    <form>
+        Login:<br>
+        <input type="text" name="login"><br>
+        Senha:<br>
+        <input type="password" name="pass"><br>
+        <br>
+        <input type="submit" value="Pronto">
+    </form>
+    <h2>Cadastre-se</h2>
+    <form>
+        Login: <br>
+        <input type="text" name="login"><br>
+        <br>
+        Sexo:<br>
+        <input type="radio" name="sexo" value="M">
+        Masculino<br>
+        <input type="radio" name="sexo" value="F">
+        Feminino<br>
+        <input type="radio" name="sexo" value="O">
+        Outros<br><br>
+        Interesses<br>
+        <input type="checkbox" name="interesses">Esportes<br> 
+        <input type="checkbox" name="interesses">Cursos<br>
+        <input type="checkbox" name="interesses">Moda<br>
+        <input type="checkbox" name="interesses">Viagens<br><br>
+        Estado<br>
+        <select name="estado">
+            <option value="am">AM</option>
+            <option value="mg">MG</option>
+            <option value="sc">SC</option>
+            <option value="rj">RJ</option>
+            <option value="es">ES</option>
+            <option value="df">DF</option>
+            <option value="sp">SP</option>
+        </select><br><br>
+        Observações:<br>
+        <textarea></textarea><br><br>
+        <input type="submit" value="cadastrar">
+
+    </form>    
+</body>
+</html>

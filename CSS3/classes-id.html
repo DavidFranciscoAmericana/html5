@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Classes e Ids</title>
+	<style type="text/css">
+		#bordas{
+        	border: 2px solid blue;
+        }
+
+		.natal{
+			background: black;
+			color: white;
+		}
+		.black{
+			background: black;
+			color: white;
+		}
+        
+        .formatacao{
+        	background: orangered;
+        	color: white;
+        	font-size: 25px;
+        	font-family: "Times New Roman" , Times , serif;
+        }
+        .formatacao2{
+        	background: greenyellow;
+        	color: white;
+        	font-size: 25px;
+        	font-family: "Times New Roman" , Times , serif;
+        }
+        .fixo{
+        	font-size: 32px;
+        }
+        .relativo1{
+        	font-size: 400%;
+        }
+        .relativo2{
+        	font-size: 1em;
+        }
+        .relativo3{
+        	font-size: 2em;
+        }
+        div{
+        	font-size: 60px;
+        }
+	</style>
+</head>
+<body class="natal">
+	<a href="inline_style.html">← voltar para inline</a>
+    <h1 class="natal">Classes e IDs</h1>
+    <p class="natal">
+    	O id é um identificador único ele identifica um ponto único, não é permitido ter dois ids de nomes identicos, uma classe já é possivel utilizar diversas vezes, ou seja, utilizando uma classe pode definir vários elementos com os mesmos atributos dessa classe. Esse arquivo em uso de nome inline_style estou utilizando um estilo no head, agora estarei criando um arquivo chamado de classes-id.html para separar a estilização do arquivo.
+    </p>
+    <p class="natal">
+    	Para utilizar uma classe usamos: ponto + nome da classe + {} e definimos as propriedades dessa classe, para chamar essa classe usamos na tag class="nomeDaClasse", se utilizarmos uma determinada estilização de cor padrao e quizermos alterar no projeto inteiro, modificamos as propriedades de classe e todas as tags que utilizam a classe serao afetadas.
+    </p>
+    <p>
+    	Para definir um id usamos # + nome único + {} e entre as chaves, o id é unico em uma página, 
+    </p>
+    <h1>Div e Span</h1>
+    <p>
+    	Usamos a div para dividir e estruturar os sites, é uma forma de organizar os elementos de uma página Web, <a href="div.html">Modelo de div</a> clique nesse link e verifique um modelo de div e span, a div agrupa os elementos na vertical o span agrupa os elementos inline, ou seja, na horizontal . 
+    </p>
+    <h1>Bordas</h1>
+    <p>
+    	Ao definir uma borda utilizamos 3 valores → border: 1px, solid, red; espessura, estilo da borda e cor. esses valores podem ser alterados de varias formas.
+    </p>
+    <div id="bordas">
+    	borda<br>
+    	borda<br>
+    	borda<br>
+    </div>
+    <h1>Fontes e cores</h1>
+    <p class="formatacao">
+    	Nesse paragrafo vou utilizar uma classe por mim criada de formatação onde estarão as propriedades de fontes e cores, assim ficara diferente dos demais paragrafos. A cores pode ser usadas o nome em ingles ou utilizar o código hexadecimal.
+    </p>
+    <p class="formatacao">
+    	Já as fontes podem ser alteradas os tamonhos, tipo, familia, 
+    	em familia utilizamos o nome da fonte entre aspas dupla e qual familia pertence, em seguida outro tipo de fonte e em seguida a familia,  caso o browser não encontre a a primeira, tenta a segunda e caso tambem não encontre vai pra terceira opção: font-family: "Times New Roman" , Times , serif;
+    </p>
+    <h1>Tamanhos de textos</h1>
+    <p class="formatacao2">
+    	podemos utilizar de formas diferente, o px é utilizado para indicar um tamanho fixo, % usado para tamanho relativo, 'em' é tamanho relativo ao container pai. abaixo estam três paragrafos utilizando essas diferentes formas.
+    </p>
+    <p>
+    	tamanho padrao de um paragrafo.
+    </p>
+    <p class="fixo">
+    	tamanho fixo, nesse caso o tamanho padrão de um paragrafo é 16pf, aqui eu dobro o tamanho e abaixo eu faço 4 vezes maior
+    </p>
+    <p class="relativo1">
+    	tamanho relativo, essa porcentagem definida é referente ao que o browser usa como referencia ex 100% já é o tamanho padrao do browser.
+    </p>
+    <p>
+    	tamanho relativo ao container pai, nesse caso utilizamos dentro de uma div ou outro componente e ao definir os tamanhos fixos nesses elementos ao utilizar o 'em' a formataçao é alterada conforme o que é pedido, veja um modelo abaixo.
+    </p>
+    <div>
+    	<p>Tamanho definido no container, definido em 60px</p>
+    	<p class="relativo2">1em mantem o tamanho</p>
+    	<p class="relativo3">2em dobra o tamanho, e assim por diante.</p>
+    </div>
+</body>
+</html>

@@ -4,15 +4,38 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>CSS3 - inline style</title>
+	<style type="text/css">
+		p{
+		   color: red;	
+		}
+        h1{
+        	color: green;
+        }
+        body{
+        	background: black;
+        }
+	</style>
 </head>
 <body>
-	<h1 style="color: red;">Estilo CSS - Cascading style sheets</h1>
-    <p style="color: blue;">
+
+	<a href="classes-id.html">classes e ids →</a>
+	<h1>Estilo CSS - Cascading style sheets</h1>
+    <p>
     	O estilo inline o estilo é aplicado diretamente na tag, não necessita de um arquivo de estilo,
     	não é usual pois se precisar fazer modificações linha a linha e isso leva um tempo bem maior que
     	quando utiliza um arquivo de estilo, que ao modificar somente o arquivo todas as tags estilizadas 
     	modificam automaticamente. Pa fazer uma formatação você utiliza style="propriedade: valor" ex:
     	style="color: red;"
     </p>
+    <h1>Seletores</h1>
+    <p>
+    	Nesse topico usaremos uma folha de estilo interna, para isso no head (não é mostrado para o usuario final) utilizamos a tag style, e faremos usando seletores, que permite definir uma formatação que será usada no projeto todo e caso precise alterar a formatação ao alterar no head é alterado em todo o projeto. Para isso usamos o seletor (p, h2, h1 etc), abre e fecha chaves e entre as chaves usamos a declaração de propriedades e valor 
+    	p{color: red;}
+    </p>
+    <h1>Classes e IDs</h1>
+    <p>
+    	O id é um identificador único ele identifica um ponto único, não é permitido ter dois ids de nomes identicos, uma classe já é possivel utilizar diversas vezes, ou seja, utilizando uma classe pode definir vários elementos com os mesmos atributos dessa classe. Esse arquivo em uso de nome inline_style estou utilizando um estilo no head, agora estarei criando um arquivo chamado de classes-id.html para separar a estilização do arquivo.
+    </p>
+
 </body>
 </html>

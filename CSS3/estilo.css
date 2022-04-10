@@ -1,7 +1,87 @@
+h3{
+	margin: 0px;
+}
+p{
+	text-align: justify;
+}
+a{
+	text-decoration: none;
+	color: chocolate;
+}
+img{
+	width: 280px;
+}
+body{
+	background: chocolate;
+}
+#container{
+	background: whitesmoke;
+	width: 1200px;
+	margin: 10px auto;
+	padding: 20px;
+}
+#principal{
+	background: whitesmoke;
+	width: 1280;
+	padding: 5px;
+}
+.galeria{
+	border: solid 4px whitesmoke;
+	background: white;
+	width: 280px;
+	float: left;
+	padding: 5px;
+}
+.noticia{
+	background: chocolate;
+	color: whitesmoke;
+	width: 350px;
+	height: 480px;
+	margin: 5px;
+	float: left;
+	padding: 5px;
+}
 .texto{
 	background: dimgray;
 	color: chocolate;
 }
 .paginaCor{
 	background: chocolate;
+}
+.caixa{
+	border: solid black 10px;
+	/*padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 30px;*/
+	/*padding:  15px 10px 20px 30px*/
+	padding: 25px;
+	width: 300px;
+	/*margin pode seguir as mesmas regras do padding comentado acima*/
+	margin: 20px;
+	text-align: justify;
+}
+.elemento{
+	width: 472px;
+	height: 180px;
+	background: chocolate;
+	color: white;
+	font-weight: bold;
+	border: solid 2px whitesmoke;
+	float: right;
+	margin: 5px;
+	padding: 10px;
+}
+.limpar{
+	clear: both;
+}
+.relativo{
+	border: 1px solid red;
+	position: relative;
+	top: 10px;
+	left: 30px;
+	width: 300px;
+}
+.posicao{
+	width: 300px;
 }

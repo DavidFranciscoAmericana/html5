@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:rgb(242, 251, 247) url(../img/fundo.PNG) repeat-x;
+}
+
+#container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+
+#topo{
+    height: 50px;
+    background: url(../img/logo.png) no-repeat right center;
+}
+
+.logo{
+    margin-left: 220px;
+    padding-top: 50px;
+    width: 152px;
+    height: 43px;
+    background: url(../img/logo2.PNG) no-repeat right center ;
+    text-indent: -3000px;
+}
+
+/*Navegação*/
+ul{
+    margin:0 0 20px 120px;
+    padding: 2px;
+    list-style: none;
+}
+
+#topo ul{
+    margin-top: 10px;
+    background:#2f5f38;
+    float:left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../img/separador.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background:none;
+}
+
+#topo ul a:hover{
+    color:rgb(90, 247, 150);
+}
+
+body.home #navegacao a#home,
+body.grade #navegacao a#grade,
+body.trabalhos #navegacao a#trabalhos,
+body.noticias #navegacao a#noticias,
+body.vestibular #navegacao a#vestibular,
+body.projetos #navegacao a#projetos,
+body.contato #navegacao a#contato{
+    background:#fff;
+    color:#2f5f38;
+    cursor:text;
+}
+
+#conteudos{
+    background: rgb(0, 255, 123);
+    margin: 0 auto;
+}
+
+#primario{
+    width: 300px;
+    float:left;
+    margin: 0 0 20px 400px;
+    background: gold;
+}
+
+#secundario{
+    width: 300px;
+    float:left;
+    margin: 0 0 20px 15px;
+    background: green;
+}
+
+#lateral{
+    width: 200px;
+    float:left;
+    margin: 0 0 20px -830px;
+    background: blue;
+}
+
+#container-rodape{
+    background:#2f5f38;
+    padding: 20px;
+}
+
+#rodape{
+    text-align: center;
+    color: white;
+}
